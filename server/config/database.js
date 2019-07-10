@@ -12,6 +12,5 @@ module.exports = new Sequelize('travelAgency', 'root', '', {
     },
     define: {
         timestamps: false
-    },
-    operatorsAliases: false
+    }
 });
